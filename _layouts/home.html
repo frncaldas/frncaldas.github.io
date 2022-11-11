@@ -16,22 +16,39 @@
             {% include intro.html %}
             {% include header.html %}
             {% include menu.html %}
-
+				
 				    <!-- Featured Post -->
 				    <article class="post featured">
 						    <header class="major">
-								    <span class="date">April 25, 2017</span>
-								    <h2><a href="#">And this is a<br />
-									      massive headline</a></h2>
-								    <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									      facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									      amet nullam sed etiam veroeros.</p>
+								  <!--  <span class="date">April 25, 2017</span>  -->
+								    <h3><a href="#">Presentation</a></h3>
+
+									<span class="image left"><img src="images/Photo_Filipa.jpeg" alt="" style="width:200px; height: 220px" /></span>
+									<span style="vertical-align:top">
+
+								    <p>I am PhD student at the <a href="https://www.fct.unl.pt/">University of Milan</a>  (Portugal), since 2022, under the supervision of 
+										Cláudia Soares (<a href="https://www.fct.unl.pt/en">NOVA School of Science and Technology</a>).
+										The PhD is funded by <a href="https://ptspace.pt/pt/home/">PTSpace</a> (Portuguese Space Agency) and it is directed towards the area
+										 of space safety using Machine learning. Our goal is to use data and machine learning algorithms to improve Orbit Determination of satellites 
+										 and space debris in Low Earth Orbit (LEO). This goal touches on several areas of knowledge, from orbital mechanics and space weather forecast, 
+										 to probabilistic forecasting, explainable AI and physics-informed machine learning.
+										In this page you will be able to follow my most recent work, with paper and code available when possible, alongside other projects and interesting collaborations.</p>
 						    </header>
-						    <a href="#" class="image main"><img src="assets/images/pic01.jpg" alt="" /></a>
-						    <ul class="actions">
-								    <li><a href="#" class="button big">Full Story</a></li>
+							
+						    <!--<a href="#" class="image main"><img src="assets/images/pic01.jpg" alt="" /></a>-->
+						    <!--<ul class="actions">More info</a></li>-->
+
+									
+								<video autoplay muted loop width="883" height="538" poster="assets/images/Imagem1.png">
+								<source src="assets/images/video1.mp4" type="video/mp4" style="margin-top: -25.5%; margin-bottom: -10.5%">
+								</video>
+								
 						    </ul>
 				    </article>
+
+					<div style=" background-color:lightslategrey;">
+						<h2>Main Research</h2>
+					</div>
 
             {% if site.posts != null %}
 
@@ -46,7 +63,7 @@
 								<a href="{{ post.url  | relative_url }}" class="image fit"><img src="{{ post.image }}" alt="" /></a>
 								<p>{{ post.excerpt }}</p>
 								<ul class="actions">
-										<li><a href="{{ post.url  | relative_url }}" class="button">Full Story</a></li>
+										<li><a href="{{ post.url  | relative_url }}" class="button">See More</a></li>
 								</ul>
 						</article>
 	          {% endfor %}
@@ -67,7 +84,7 @@
 				        <a href="#" class="next">Next</a>
 		        </div>
 
-            <!-- This loops through the paginated posts -->
+            <!-- This loops through the paginated posts-->
             <!-- {% for post in paginator.posts %}
                  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
                  <p class="author">
@@ -79,7 +96,7 @@
                  {% endfor %} -->
 
             <!-- Pagination links -->
-            <!-- <div class="pagination">
+             <!--<div class="pagination">
                  {% if paginator.previous_page %}
                  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
                  {% else %}
@@ -91,8 +108,8 @@
                  {% else %}
                  <span class="next ">Next</span>
                  {% endif %}
-                 </div>
-               -->
+                 </div>-->
+               
         </footer>
 
 {% endif %}

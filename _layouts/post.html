@@ -25,12 +25,16 @@
 						    </header>
 
                 {% if page.image %}
-                <div class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></div>
+                <div class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" width="200" height=auto alt="" /></div>
                 {% endif %}
 
                 {{ content }}
+				
+						
 
-				    </section>
+				 </section>
+
+					
 
             {% include footer.html %}
 
