@@ -16,14 +16,14 @@ phone: (+351) 212948536
 # social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/andrewbanchich
-gitlab_url: https://gitlab.com/u/andrewbanchich
+github_url: https://github.com/frncaldas
+#gitlab_url: https://gitlab.com/u/andrewbanchich
 googleplus_url:
 instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: https://www.linkedin.com/in/francisco-m-caldas-441833137
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # build settings
 markdown: kramdown
