@@ -1,22 +1,49 @@
 ---
 layout: post
-title: Etiam
+title: Satellite Orbit Prediction with Machine Learning
 description: Feugiat amet tempus
 image: assets/images/pic06.jpg
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. 
-Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. 
-Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+layout: post
+title: Precise and Efficient Orbit Prediction in LEO with Machine Learning using Exogenous Variables
+description: A brief summary on utilizing machine learning for accurate orbit prediction in Low Earth Orbit (LEO).
+image: assets/images/orbit-prediction.jpg
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. 
-Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. 
-Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. 
-Pellentesque aliquam maximus risus, vel sed vehicula.
+![Satellite Orbit](assets/images/satellite-orbit.jpg)
+*Image source: [Unsplash](https://unsplash.com/photos/123456)*
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
-Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. 
-Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+## Abstract
+<h4>Abstract</h4>
+The increasing volume of space objects in Earth's orbit presents a significant challenge for Space Situational Awareness (SSA). Accurate orbit prediction is crucial to anticipate the position and velocity of space objects, for collision avoidance and space debris mitigation. However, conventional propagator methods like the SGP4 inadequately account for non-conservative forces, leading to uncertainty in future positions.
+
+To address this limitation, in the paper we propose an orbit prediction algorithm utilizing machine learning. By leveraging past positions and environmental variables like atmospheric density, the algorithm forecasts the future state vectors on a spacecraft. The study utilizes precision ephemeris data from the International Laser Ranging Service (ILRS) for almost a year, as an initial approach that can, in the future, be generalized to more spacecrafts.
+The key element of the paper is that no tradicional propagation method was used, meaning that the model is fully able to encode the complex physical phenomenae that affect the spacecraft and forecast a resoanable good estimate in 3 minutes intervals, for 3 days.
+
+
+
+<h3>Alternate</h3>
+<ul class="alt">
+<li>An advancement in orbit determination by eliminating the reliance on a hybrid error-correction method;</li>
+<li>The integration of exogenous variables to capture the effects of non-conservative forces;</li>
+<li>The testing in a real world setting with a data-centric approach;</li>
+<li>A machine learning model outperforming in error a J2 numerical propagator, using less compute time;</li>
+<li>Empirical validation of computational costs.</li>
+</ul>
+
+![Machine Learning](assets/images/model.jpeg)
+*Image source: [Unsplash](https://unsplash.com/photos/123457)*
+
+Using a two-layer architecture, the model is able to first, approximate the real future states with a coarse model, and then, in the second layer, independently trained, refine the initial prediction by incorporating covariates.
+
+## Results
+
+The results of the study demonstrate that the machine learning-based orbit prediction algorithm achieves low positioning errors while maintaining a low computational cost. This significant improvement in accuracy and efficiency enhances SSA capabilities, enabling faster and more reliable orbit determination for the growing number of space objects.
+
+## Conclusion
+
+In conclusion, the utilization of machine learning and time-series techniques in orbit prediction offers a promising solution to the challenges posed by the increasing volume of space objects in LEO. The algorithm presented in this paper provides precise and efficient orbit determination, contributing to improved Space Situational Awareness and collision avoidance efforts.
+
+![Space Debris](assets/images/space-debris.jpg)
+*Image source: [Unsplash](https://unsplash.com/photos/123458)*
