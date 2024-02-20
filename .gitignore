@@ -5,3 +5,6 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 elements.md
+assets/icon/build/
+assets/icon/dist/
+assets/icon/image_process_gui.spec
