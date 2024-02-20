@@ -1,21 +1,10 @@
 ---
 layout: post
-title: Satellite Orbit Prediction with Machine Learning
-description: Feugiat amet tempus
-image: assets/images/pic06.jpg
----
-
-layout: post
-title: Precise and Efficient Orbit Prediction in LEO with Machine Learning using Exogenous Variables
+title: 'Precise and Efficient Orbit Prediction in LEO with Machine Learning using Exogenous Variables'
 description: A brief summary on utilizing machine learning for accurate orbit prediction in Low Earth Orbit (LEO).
-image: assets/images/orbit-prediction.jpg
+image: assets/images/iso_earth.png
+code:
 ---
-
-![Satellite Orbit](assets/images/satellite-orbit.jpg)
-*Image source: [Unsplash](https://unsplash.com/photos/123456)*
-
-## Abstract
-<h4>Abstract</h4>
 The increasing volume of space objects in Earth's orbit presents a significant challenge for Space Situational Awareness (SSA). Accurate orbit prediction is crucial to anticipate the position and velocity of space objects, for collision avoidance and space debris mitigation. However, conventional propagator methods like the SGP4 inadequately account for non-conservative forces, leading to uncertainty in future positions.
 
 To address this limitation, in the paper we propose an orbit prediction algorithm utilizing machine learning. By leveraging past positions and environmental variables like atmospheric density, the algorithm forecasts the future state vectors on a spacecraft. The study utilizes precision ephemeris data from the International Laser Ranging Service (ILRS) for almost a year, as an initial approach that can, in the future, be generalized to more spacecrafts.
@@ -23,7 +12,7 @@ The key element of the paper is that no tradicional propagation method was used,
 
 
 
-<h3>Alternate</h3>
+<h3>Contributions:</h3>
 <ul class="alt">
 <li>An advancement in orbit determination by eliminating the reliance on a hybrid error-correction method;</li>
 <li>The integration of exogenous variables to capture the effects of non-conservative forces;</li>
@@ -32,8 +21,7 @@ The key element of the paper is that no tradicional propagation method was used,
 <li>Empirical validation of computational costs.</li>
 </ul>
 
-![Machine Learning](assets/images/model.jpeg)
-*Image source: [Unsplash](https://unsplash.com/photos/123457)*
+![Machine Learning](assets/images/model.jpg)
 
 Using a two-layer architecture, the model is able to first, approximate the real future states with a coarse model, and then, in the second layer, independently trained, refine the initial prediction by incorporating covariates.
 
