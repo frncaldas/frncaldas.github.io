@@ -1,4 +1,4 @@
----
+	---
 layout: post
 title: 'Precise and Efficient Orbit Prediction in LEO with Machine Learning using Exogenous Variables'
 description: A brief summary on utilizing machine learning for accurate orbit prediction in Low Earth Orbit (LEO).
@@ -35,6 +35,8 @@ In conclusion, the utilization of machine learning and time-series techniques in
 <ul class="actions fit">
 						<li><a href= "https://arxiv.org/pdf/2407.11026" class="button special fit">Paper</a></li>
 </ul>
-
-<iframe src="https://drive.google.com/file/d/1iXL7yUqJTIZqNAGXW7zTpYhHdF99S3AA/preview" width="640" height="480" allow="autoplay"></iframe>
-
+<div style="text-align: center;">
+    <iframe src="https://drive.google.com/file/d/1iXL7yUqJTIZqNAGXW7zTpYhHdF99S3AA/preview"
+            style="display: block; margin: 0 auto;">
+    </iframe>
+</div>
