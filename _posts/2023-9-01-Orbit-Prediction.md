@@ -8,7 +8,7 @@ code:
 The increasing volume of space objects in Earth's orbit presents a significant challenge for Space Situational Awareness (SSA). Accurate orbit prediction is crucial to anticipate the position and velocity of space objects, for collision avoidance and space debris mitigation. However, conventional propagator methods like the SGP4 inadequately account for non-conservative forces, leading to uncertainty in future positions.
 
 To address this limitation, in the paper we propose an orbit prediction algorithm utilizing machine learning. By leveraging past positions and environmental variables like atmospheric density, the algorithm forecasts the future state vectors on a spacecraft. The study utilizes precision ephemeris data from the International Laser Ranging Service (ILRS) for almost a year, as an initial approach that can, in the future, be generalized to more spacecrafts.
-The key element of the paper is that no tradicional propagation method was used, meaning that the model is fully able to encode the complex physical phenomenae that affect the spacecraft and forecast a resoanable good estimate in 3 minutes intervals, for 3 days.
+The key element of the paper is that no traditional propagation method was used, meaning that the model is fully able to encode the complex physical phenomenae that affect the spacecraft and forecast a resoanable good estimate in 3 minutes intervals, for 3 days.
 
 
 
