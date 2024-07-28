@@ -38,5 +38,3 @@ In conclusion, the utilization of machine learning and time-series techniques in
 
 <iframe src="https://drive.google.com/file/d/1iXL7yUqJTIZqNAGXW7zTpYhHdF99S3AA/preview" width="640" height="480" allow="autoplay"></iframe>
 
-![Space Debris](/assets/images/space-debris.jpg)
-*Image source: [Unsplash](https://unsplash.com/photos/123458)*
