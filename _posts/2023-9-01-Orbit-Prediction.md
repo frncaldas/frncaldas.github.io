@@ -21,7 +21,7 @@ The key element of the paper is that no traditional propagation method was used,
 <li>Empirical validation of computational costs.</li>
 </ul>
 
-![Machine Learning](assets/images/model.jpg)
+![Machine Learning](/assets/images/model.jpg)
 
 Using a two-layer architecture, the model is able to first, approximate the real future states with a coarse model, and then, in the second layer, independently trained, refine the initial prediction by incorporating covariates.
 
@@ -33,5 +33,9 @@ The results of the study demonstrate that the machine learning-based orbit predi
 
 In conclusion, the utilization of machine learning and time-series techniques in orbit prediction offers a promising solution to the challenges posed by the increasing volume of space objects in LEO. The algorithm presented in this paper provides precise and efficient orbit determination, contributing to improved Space Situational Awareness and collision avoidance efforts.
 
-![Space Debris](assets/images/space-debris.jpg)
+<ul class="actions fit">
+						<li><a href= "https://arxiv.org/pdf/2407.11026" class="button special fit">Paper</a></li>
+</ul>
+
+![Space Debris](/assets/images/space-debris.jpg)
 *Image source: [Unsplash](https://unsplash.com/photos/123458)*
