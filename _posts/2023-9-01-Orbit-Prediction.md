@@ -21,7 +21,6 @@ The key element of the paper is that no traditional propagation method was used,
 <li>Empirical validation of computational costs.</li>
 </ul>
 
-![Machine Learning](/assets/images/model.jpg)
 
 Using a two-layer architecture, the model is able to first, approximate the real future states with a coarse model, and then, in the second layer, independently trained, refine the initial prediction by incorporating covariates.
 
@@ -36,6 +35,8 @@ In conclusion, the utilization of machine learning and time-series techniques in
 <ul class="actions fit">
 						<li><a href= "https://arxiv.org/pdf/2407.11026" class="button special fit">Paper</a></li>
 </ul>
+
+<iframe src="https://drive.google.com/file/d/1iXL7yUqJTIZqNAGXW7zTpYhHdF99S3AA/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ![Space Debris](/assets/images/space-debris.jpg)
 *Image source: [Unsplash](https://unsplash.com/photos/123458)*
