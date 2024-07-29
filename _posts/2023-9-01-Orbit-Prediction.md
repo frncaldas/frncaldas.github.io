@@ -36,6 +36,6 @@ In conclusion, the utilization of machine learning and time-series techniques in
 						<li><a href= "https://arxiv.org/pdf/2407.11026" class="button special fit">Paper</a></li>
 </ul>
 <div style="text-align: center;">
-    <iframe src="https://drive.google.com/file/d/1iXL7yUqJTIZqNAGXW7zTpYhHdF99S3AA/preview" width="420" height="340" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1iXL7yUqJTIZqNAGXW7zTpYhHdF99S3AA/preview" width="480" height="340" allow="autoplay"></iframe>
 
 </div>
